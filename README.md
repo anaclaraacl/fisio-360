@@ -101,7 +101,13 @@ Os scripts desta versão foram configurados para o ambiente Windows deste projet
    npm.cmd start
    ```
 
-   Mantenha esse terminal aberto. A API usa a porta `8443`.
+   Mantenha esse terminal aberto. A API usa a porta `8443`. Em outra janela do PowerShell, ainda na pasta `backend`, confira se ela responde:
+
+   ```powershell
+   curl.exe --cacert ..\assets\certs\local-api.pem https://localhost:8443/health
+   ```
+
+   A resposta esperada é `{"ok":true}`. Esse teste valida a conexão HTTPS local sem desativar a verificação do certificado.
 
 4. Em outro terminal, na raiz do projeto, prepare e execute o app no emulador:
 
