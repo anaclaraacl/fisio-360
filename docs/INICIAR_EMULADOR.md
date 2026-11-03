@@ -55,11 +55,9 @@ No VS Code, pressione **Ctrl+P** e digite o nome do arquivo para abri-lo rapidam
 Entrada do app e tema azul:
 `C:\Users\Mainô\Documents\ChatGPT\Fisio 360\lib\main.dart`
 
-## 5. Slides e roteiro
+## 5. Demonstração
 
 - Apresentação com prints:
   `C:\Users\Mainô\Documents\ChatGPT\Fisio 360\apresentacao\Fisio360-apresentacao-integracoes.pptx`
-- Roteiro de fala:
-  `C:\Users\Mainô\Documents\ChatGPT\Fisio 360\docs\ROTEIRO_APRESENTACAO.md`
 
-Use dados fictícios ao apresentar. Para encerrar, feche o emulador e pressione **Ctrl+C** no terminal que iniciou a API.
+Use dados fictícios ao apresentar. Para encerrar, feche o emulador, pressione **Ctrl+C** no terminal que iniciou a API e pare o banco com `backend\scripts\stop-local.ps1`.
