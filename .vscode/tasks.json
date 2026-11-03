@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Fisio 360: iniciar app",
+      "type": "process",
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": ["${workspaceFolder}/backend/scripts/start-vscode.mjs"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated", "clear": true },
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "Fisio 360: verificar ambiente",
+      "type": "process",
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": ["${workspaceFolder}/backend/scripts/start-vscode.mjs", "--check"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    }
+  ]
+}

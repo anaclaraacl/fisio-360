@@ -1,0 +1,26 @@
+name: fisio_360
+description: Aplicativo de gestão local de atendimentos de fisioterapia.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+  flutter_secure_storage: 10.3.4
+  provider: ^6.1.5+1
+  shared_preferences: ^2.5.6
+  # A série 2.5.x compila JNI e falha em caminhos Windows com acentos.
+  shared_preferences_android: 2.4.28
+  # A série 2.3.x usa JNI, que falha neste caminho Windows com acento.
+  path_provider_android: 2.2.23
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/certs/local-api.pem
+dev_dependencies:
+  flutter_lints: ^6.0.0
