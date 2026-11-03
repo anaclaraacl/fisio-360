@@ -56,6 +56,8 @@ backend/certs/
 
 # Local machine settings, logs, and credentials
 .codex-finalizer/
+docs/ROTEIRO_APRESENTACAO.md
+Iniciar Fisio 360.cmd
 android/local.properties
 *.log
 .env
