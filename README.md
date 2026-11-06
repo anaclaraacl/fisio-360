@@ -173,6 +173,5 @@ apresentacao/               slides e capturas de tela
 - O registro de configuração disponível indica que a criptografia da unidade C: estava desligada. O projeto, por si só, não ativa a criptografia do Windows nem protege cópias feitas pelo emulador.
 - Esta versão é uma entrega acadêmica local; suas proteções de software não equivalem a uma avaliação completa de segurança ou preparação para uso clínico com dados reais. Use dados fictícios na avaliação e não coloque registros, senhas, tokens ou chaves no repositório.
 - Funcionalidades adicionais presentes: cadastro de conta, mostrar/ocultar senha no login, edição de pacientes e atendimentos, cores por situação e saudação pelo primeiro nome do e-mail.
-- O repositório GitHub é privado. Dê acesso ao professor antes de enviar o link; se isso não for possível, entregue um ZIP pelo canal indicado. Não inclua `build/`, `.dart_tool/`, APKs, banco local ou arquivos de credenciais.
 
 Documentação complementar: [iniciar o emulador](docs/INICIAR_EMULADOR.md) e [detalhes do backend](docs/BACKEND.md).
